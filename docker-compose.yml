@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  rustbot:
+    build: .
+    container_name: rust-srvstatus-bot
+    restart: unless-stopped
+    network_mode: host
+    env_file:
+      - .env
