@@ -6,8 +6,13 @@ Rustサーバーのステータスを取得して BOTのステータス欄にロ
 ## ✨ Features
 
 - A2S による Rust サーバー情報取得
+- Discord ステータス欄にプレイヤー数を表示
 - Docker / systemd 両対応
 - シンプルで軽量
+
+## 📸 Screenshot
+
+![Discord Bot Status Display](images/status-display.png)
 
 ---
 
