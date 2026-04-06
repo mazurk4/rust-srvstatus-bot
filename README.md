@@ -19,10 +19,11 @@ Rustサーバーのステータスを取得するDiscord Botです。
 ```bash
 git clone https://github.com/mazurk4/rust-srvstatus-bot.git
 cd rust-srvstatus-bot
+```
 
 ### 2. 環境変数
 
-```
+```bash
 cp .env.example .env
 vim .env
 ```
@@ -39,13 +40,13 @@ vim .env
 
 ## Docker
 
-```
+```bash
 docker compose up -d --build
 ```
 
-## systemd
+##systemd
 
-```
+```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
