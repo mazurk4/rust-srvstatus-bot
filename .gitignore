@@ -6,3 +6,5 @@ __pycache__/
 .github/copilot-instructions.md
 .coverage
 *.egg-info/
+.claude/
+.claude
